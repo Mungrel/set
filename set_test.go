@@ -18,6 +18,8 @@ func TestAdd(t *testing.T) {
 	if !s.ContainsAll(1, 2, 3, 4) {
 		t.Fatalf("expected set to contain [1,2,3,4]\ngot: %v", s)
 	}
+
+	t.Fatal("test")
 }
 
 func TestRemove(t *testing.T) {
