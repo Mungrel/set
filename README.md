@@ -1,4 +1,4 @@
-# Set
+# Set [![CI](https://github.com/Mungrel/set/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Mungrel/set/actions/workflows/ci.yml)
 Simple generic set implementation
 
 ## Usage
