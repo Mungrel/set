@@ -4,7 +4,7 @@ Simple generic set implementation
 ## Usage
 ```go
 // Empty set
-s := set.New[string]
+s := set.New[string]()
 
 s.Add("apple", "banana", "orange")
 
