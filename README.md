@@ -3,6 +3,12 @@ Simple generic set implementation
 
 ## Usage
 ```go
+// Empty set
+s := set.New[string]
+
+s.Add("apple", "banana", "orange")
+
+// Initialise with elements
 s := set.New(1, 2, 3)
 
 if s.Contains(1) {
